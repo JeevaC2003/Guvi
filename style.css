@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=996&t=st=1692283818~exp=1692284418~hmac=404979f65618fba097371ccf945b34052bf2b554c35ae43277b64c4e1405e249');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+.view {
+  width: 500px;
+  margin: 0 auto;
+}
+.hide {
+  display: none;
+}
+#cursor-pointer {
+  cursor: pointer;
+}
+.view a,.hide a {
+  color: white;
+  text-decoration: underline; /* Adding underline for better visibility */
+}
+
+.view a:hover,.hide a:hover {
+  color: lightgray; /* Change the color on hover if needed */
+}
+h1{
+  text-align: center;
+  color: green;
+}
+.container{
+  height: 100%;
+  align-content: center;
+}
+  .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: green;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    .card-header h3{
+    color: white;
+    }
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    .input-group-prepend span{
+    width: 50px;
+    background-color: blue;
+    color: black;
+    border:0 !important;
+    }
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    }
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color:blue;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    .form-groups
+    {
+      margin-right: 130px;
+      margin-top: 30px;
+    }
